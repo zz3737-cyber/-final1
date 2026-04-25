@@ -12,11 +12,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - BJ
+  - PlayerBody
   - Water
   - UI
-  - CJ
-  - 
+  - LimbSensor
+  - Boundary
   - 
   - 
   - 
@@ -45,10 +45,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: CJ
+  - name: PlayerBody
     uniqueID: 1421910983
     locked: 0
-  - name: BJ
+  - name: LimbSensor
     uniqueID: 103172773
     locked: 0
   m_RenderingLayers:
