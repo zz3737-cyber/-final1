@@ -34,6 +34,13 @@ public class HandGrip : MonoBehaviour
     public Transform shoulderPivot;
     public float maxReach = 1.5f;
 
+    public void ForceReleaseForRespawn()
+{
+    isGripping = false;
+    currentHold = null;
+    currentStamina = maxStamina;
+}
+
     private Transform candidateHold;
 
     private enum HoldType
